@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline';
-import Link from 'next/link';
+// import Link from 'next/link';
 
 interface NavbarProps {
   onSearch: (query: string) => void;

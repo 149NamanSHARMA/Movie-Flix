@@ -34,7 +34,7 @@ export default function MovieDetails({ movie, onClose }: MovieDetailsProps) {
   if (!movie) return null;
 
   const backdropUrl = getBackdropUrl(movie.backdrop_path);
-  const posterUrl = getImageUrl(movie.poster_path);
+//   const posterUrl = getImageUrl(movie.poster_path);
   const trailer = details?.videos.results.find(
     (video) => video.type === 'Trailer' && video.site === 'YouTube'
   );

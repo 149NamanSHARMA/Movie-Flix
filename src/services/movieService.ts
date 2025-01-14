@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Movie, MovieDetails, SearchResponse } from '@/types/movie';
+import { MovieDetails, SearchResponse } from '@/types/movie';
 import { tmdb } from '@/utils/tmdb';
 
 const api = axios.create({
